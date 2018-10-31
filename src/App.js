@@ -5,21 +5,42 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <header>Header</header>
+        <div className="mainSection">
+          <div className="nav">
+            <ul>
+              <li>List Item One</li>
+              <li>List Item Two</li>
+              <li>List Item Three</li>
+              <li>List Item Four</li>
+              <li>List Item Five</li>
+
+            </ul>
+          </div>
+        <div className="cardParent">
+          <div className="cardRow">
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+          </div>
+          <div className="cardRow">
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+          </div>
+          <div className="cardRow">
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+          </div>
+          <div className="cardRow">
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+            <div className="card">I am a card</div>
+          </div>
+        </div>
+        </div>
       </div>
     );
   }

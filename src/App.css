@@ -2,20 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+header {
+  width: 100%;
+  background-color: blue;
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+  font-size: large;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainSection {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  width: 100%;
+  color: blue;
+}
+
+.nav {
+  background-color: lightblue;
+  grid-column: span 1;
+  flex-grow: 1;
+}
+
+.cardParent {
+  background-color: grey;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-grow: 1;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.card{
+  padding: 40px;
+  margin: 20px;
+  background-color: white;
 }
 
 .App-link {

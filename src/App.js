@@ -6,16 +6,28 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>Header</header>
+        <header>
+          <h1>Header</h1>
+          <a href="https://761-pr-patternfly-react-patternfly.surge.sh/patternfly-4/" className="primaryButton">
+            Find out more
+          </a>
+        </header>
         <div className="mainSection">
           <div className="nav">
             <ul>
-              <li>List Item One</li>
-              <li>List Item Two</li>
-              <li>List Item Three</li>
-              <li>List Item Four</li>
-              <li>List Item Five</li>
+              <div>Section One</div>
+              <li>Link One</li>
+              <li>Link Two</li>
+              <li>Link Three</li>
+              <li>Link Four</li>
+            </ul>
 
+            <ul>
+              <div>Section Two</div>
+              <li>Link One</li>
+              <li>Link Two</li>
+              <li>Link Three</li>
+              <li>Link Four</li>
             </ul>
           </div>
         <div className="cardParent">
@@ -41,6 +53,7 @@ class App extends Component {
           </div>
         </div>
         </div>
+        <div className="footer">No brand</div>
       </div>
     );
   }

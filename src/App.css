@@ -19,13 +19,20 @@ header {
 }
 
 .nav {
-  background-color: lightblue;
+  background-color: darkgrey;
   grid-column: span 1;
   flex-grow: 1;
 }
 
+.primaryButton {
+  color: white;
+  background-color: red;
+  text-align: right;
+}
+
 .cardParent {
-  background-color: grey;
+  background-color:lightgray;
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -43,6 +50,13 @@ header {
   padding: 40px;
   margin: 20px;
   background-color: white;
+}
+
+.footer {
+  padding: 40px;
+  background-color: black;
+  color: white;
+  text-align: right;
 }
 
 .App-link {

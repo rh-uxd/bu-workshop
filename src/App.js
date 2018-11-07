@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -8,8 +8,11 @@ class App extends Component {
       <div>
         <header>
           <h1>Header</h1>
-          <a href="https://761-pr-patternfly-react-patternfly.surge.sh/patternfly-4/" className="primaryButton">
-            Find out more
+          <a
+            href="https://761-pr-patternfly-react-patternfly.surge.sh/patternfly-4/"
+            className="primaryButton"
+          >
+            Test Find out more
           </a>
         </header>
         <div className="mainSection">
@@ -30,28 +33,28 @@ class App extends Component {
               <li>Link Four</li>
             </ul>
           </div>
-        <div className="cardParent">
-          <div className="cardRow">
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
+          <div className="cardParent">
+            <div className="cardRow">
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+            </div>
+            <div className="cardRow">
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+            </div>
+            <div className="cardRow">
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+            </div>
+            <div className="cardRow">
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+              <div className="card">I am a card</div>
+            </div>
           </div>
-          <div className="cardRow">
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-          </div>
-          <div className="cardRow">
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-          </div>
-          <div className="cardRow">
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-            <div className="card">I am a card</div>
-          </div>
-        </div>
         </div>
         <div className="footer">No brand</div>
       </div>

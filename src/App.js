@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import redhatlogo from './redhatlogo.png';
 import './App.css';
 
 class App extends Component {
@@ -7,10 +8,8 @@ class App extends Component {
     return (
       <div>
         <header>
-          <h1>Header</h1>
-          <a href="https://761-pr-patternfly-react-patternfly.surge.sh/patternfly-4/" className="primaryButton">
-            Find out more
-          </a>
+          <h1>BU-Workshop</h1>
+          <img src={redhatlogo} className="redHatLogo"/>
         </header>
         <div className="mainSection">
           <div className="nav">
@@ -53,7 +52,6 @@ class App extends Component {
           </div>
         </div>
         </div>
-        <div className="footer">No brand</div>
       </div>
     );
   }

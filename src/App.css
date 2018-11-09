@@ -3,19 +3,33 @@
 }
 
 header {
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: space-between; */
   width: 100%;
   background-color: blue;
   padding: 60px 0;
   color: white;
-  text-align: center;
   font-size: large;
+}
+
+h1 {
+  text-align: center;
+}
+
+.redHatLogo {
+  width: 15%;
+  height: 15%;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
 }
 
 .mainSection {
   display: grid;
   grid-template-columns: 300px 1fr;
   width: 100%;
-  color: blue;
+  color: lightblue;
 }
 
 .nav {
@@ -41,7 +55,7 @@ header {
 
 .cardRow {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-direction: row;
   flex-wrap: nowrap;
 }

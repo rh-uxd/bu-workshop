@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Gallery, GalleryItem, Card, CardBody } from "@patternfly/react-core";
 
 class App extends Component {
   render() {
@@ -33,28 +34,52 @@ class App extends Component {
               <li>Link Four</li>
             </ul>
           </div>
-          <div className="cardParent">
-            <div className="cardRow">
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-            </div>
-            <div className="cardRow">
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-            </div>
-            <div className="cardRow">
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-            </div>
-            <div className="cardRow">
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-              <div className="card">I am a card</div>
-            </div>
-          </div>
+          <Gallery gutter="md">
+            <GalleryItem>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+            </GalleryItem>
+            <GalleryItem>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+            </GalleryItem>
+            <GalleryItem>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+            </GalleryItem>
+            <GalleryItem>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+              <Card>
+                <CardBody>I am a card</CardBody>
+              </Card>
+            </GalleryItem>
+          </Gallery>
         </div>
         <div className="footer">No brand</div>
       </div>

@@ -7,7 +7,7 @@ By now you should be familiar with how Red Hat’s UXD team uses Github to desig
 **Github Log In**
 1. One person in the group should log into their GitHub account. Don’t have one? Sign up for an account at 		https://github.com/
 
-**Forking**
+**Forking** 
 2. Forking is necessary to avoid overriding the original repository when making edits. Navigate to: https://github.com/rh-uxd/bu-workshop. Fork the repository by clicking on the **“FORK”** button in the top right corner. This will create a copy on your own account.
 
 

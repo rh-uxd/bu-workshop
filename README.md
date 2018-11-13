@@ -67,21 +67,28 @@ Once you have found the folder, type *“git clone <the copied link>”*. Now yo
 	Example: In your src/App.js file, import the Card and CardBody components
 		*import { Card, CardBody } from ‘@patternfly/react-core’;*
 	Find and replace:
-		<div className="card">I am a card</div>
+		`<div className="card">I am a card</div>`
 	with
-		<Card><CardBody>I am a card</CardBody></Card>
+		`<Card><CardBody>I am a card</CardBody></Card>`
 	
 16. Can you replace the .cardParent and .cardRow containers with the Gallery and GalleryItem layout components?
+
 17. There should be some space between the cards. Can you find a property for the Gallery that can help with this?
 	**Hint:** Each <Card> should be in its own <GalleryItem> container for this to work
 18. Can you find a suitable component replacement for the .nav container?
+
 19. Is there a layout that can be used for the entire page that includes a header, sidebar, and main content?
+
 20. Once you finish this, we will give you the link to check how you did. 
 
 **Adding/Commiting Changes**
+
 21. In the terminal in the “bu-workshop” folder type git status to see the files you have modified.
+
 22. *git add .*  stages your files for commit.
+
 23. To commit these type *git commit -m ‘<commit message>’*
+
 24. Type *git push origin master* to push the local changes to your branch
 
 
@@ -89,30 +96,41 @@ Once you have found the folder, type *“git clone <the copied link>”*. Now yo
 
 
 **Cloning**
+
 3. Go here: https://codesandbox.io/s/github and import your forked project. The path should look something like https://github.com/<your_username>/bu-workshop. Click on the **“Open Sandbox”** button to proceed.
 
 **PatternFly-React**
+
 4. Click on the **“Add Dependency”** button in the lower left corner.
+
 5. Search for **@patternfly/react-core** and select the first item from the search results.
+
 6. Now that you have the dependency installed, add the base css file to the root of the application this would be in your **src/index.js** file: type:
 *import "@patternfly/react-core/dist/styles/base.css";*
 (don’t forget to save)
+
 7. The goal is to swap out the HTML/CSS code for PF-React components. The current react components for PatternFly 4 are here: http://patternfly-react.surge.sh/patternfly-4
 	a. Example: In your **src/App.js** file, import the Card and CardBody components
 		*import { Card, CardBody } from "@patternfly/react-core";*
 	b. Find and replace:
-		*<div className="card">I am a card</div>*
+		`<div className="card">I am a card</div>`
 	with
-		*<Card><CardBody>I am a card</CardBody></Card>*
+		`<Card><CardBody>I am a card</CardBody></Card>`
+
 8. Can you replace the *.cardParent* and *.cardRow* containers with the Gallery and GalleryItem layout components?
+
 9. There should be some space between the cards. Can you find a property for the Gallery that can help with this?
 	a. **Hint:** Each <Card> should be in its own <GalleryItem> container for this to work
+
 10. Can you find a suitable component replacement for the .nav container?
+
 11. Is there a layout that can be used for the entire page that includes a header, sidebar, and main content?
+
 12. Once you finish this, we will give you the link to check how you did. 
 
 
 **Adding/Commiting Changes**
+
 13. So far, the changes you’ve made are only visible in codesandbox and not in your forked GitHub repo. To save your changes back to your repo:
 	a. Make sure you’re signed in with your GitHub account in the upper right corner
 	b. When prompted, allow codesandbox access to your GitHub repos

@@ -12,10 +12,13 @@ By now you should be familiar with how Red Hat’s UXD team uses Github to desig
 2. Forking is necessary to avoid overriding the original repository when making edits. Navigate to: https://github.com/rh-uxd/bu-workshop. Fork the repository by clicking on the **“FORK”** button in the top right corner. This will create a copy on your own account.
 
 
+
 *From this step you can choose to take one of two paths. If you are confident that your computer’s development environment is set up (code editor, npm, node version 8) choose **Continue with Local Development**. If this is your first time setting up a development environment and you would rather skip this step, choose Continue with Remote Development.*
 
 
+
 **Continue with local development**
+
 **Continue with remote development**
 
 
@@ -23,7 +26,9 @@ By now you should be familiar with how Red Hat’s UXD team uses Github to desig
 
 
 **Cloning**
+
 3. In Github, go to your Profile > Repositories > bu-workshop. Click the green button in the top right corner that says **“Clone or Download”** and use the clipboard icon to copy that link. 
+
 4. Open the Terminal from your local machine (on Macs search for Terminal. Command + space + type in “terminal”). Navigate to a folder that you would like to clone the bu-workshop repository into. Use *“cd <folder name>”* to open a folder, *“cd ..”* to go back and *“ls”* to see what is inside of the current folder. Here is a list of commands for the terminal - https://www.git-tower.com/blog/command-line-cheat-sheet/ 
 Once you have found the folder, type *“git clone <the copied link>”*. Now you have the repository copied to your local machine! 
 **Note:** If you get an error about installing x-code when you try to git clone:
@@ -31,22 +36,33 @@ Once you have found the folder, type *“git clone <the copied link>”*. Now yo
 	b. In a new terminal window, try to git clone again
 
 **Running the application via NPM**
+
 5. In order to run the application in the web browser, we need to install NPM.
+
 6. NPM is a package manager that is bundled with Node.js. It is needed to download the dependencies for the repository. If you don’t already have it, you can download the installer from https://nodejs.org/en/download/ (you may have to close all open terminals first). Make sure that you are in the folder “bu-workshop” and then run the following command within the repo directory: *npm install*
+
 7.After the dependencies have been installed, you can start the application by running: *npm start*. A new tab should open in your browser, otherwise type http://localhost:3000/ in your browser. When you run it, you should see the webpage on your handout. Ask a representative if you need help.
 
 **Open a Code Editor**
+
 8. Open your code editor. Don’t have one? We suggest downloading Microsoft’s **Visual Studio Code** here: https://code.visualstudio.com/download 
+
 9. Launch VS Code or your code editor.
+
 10. File > Open > navigate to where the repository was cloned. Select the folder **bu-workshop** and click open.
+
 11. This will open the folder and all of its files inside of the code editor. 
 
 **PatternFly-React**
+
 12. Go back to your terminal. To exit out of what is running: (for Macs: Control + C).
+
 13. In order to use PatternFly React in the application you will need to install its dependency. Type this into the command line of your terminal: 
 	*npm install @patternfly/react-core --save*
+
 14. Go back to your code editor. Now that you have the dependency installed, add the base css file to the root of the application this would be in your src/index.js file: type:
 	*import '@patternfly/react-core/dist/styles/base.css'*;
+
 15. The goal is to swap out the HTML/CSS code for PF-React components. The current react components for PatternFly 4 are here: http://patternfly-react.surge.sh/patternfly-4
 	Example: In your src/App.js file, import the Card and CardBody components
 		*import { Card, CardBody } from ‘@patternfly/react-core’;*

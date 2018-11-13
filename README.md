@@ -5,7 +5,7 @@ Welcome to the BU Workshop.
 By now you should be familiar with how Red Hat’s UXD team uses Github to design and develop PatternFly. The aim of this workshop is to edit and run a simple React application by using PatternFly 4 React components and Github. The goal is to replace the code for the example web page with components from the PatternFly-Next React library. 
 
 **Github Log In**
-	1. One person in the group should log into their GitHub account. Don’t have one? Sign up for an account at 		https://github.com/
+1. One person in the group should log into their GitHub account. Don’t have one? Sign up for an account at 		https://github.com/
 
 **Forking**
 Forking is necessary to avoid overriding the original repository when making edits. Navigate to: https://github.com/rh-uxd/bu-workshop. Fork the repository by clicking on the **“FORK”** button in the top right corner. This will create a copy on your own account.

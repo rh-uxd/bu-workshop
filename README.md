@@ -1,6 +1,6 @@
 Welcome to the BU Workshop. 
 
-*Instructions:*
+**Instructions:**
 
 By now you should be familiar with how Red Hat’s UXD team uses Github to design and develop PatternFly. The aim of this workshop is to edit and run a simple React application by using PatternFly 4 React components and Github. The goal is to replace the code for the example web page with components from the PatternFly-Next React library. 
 

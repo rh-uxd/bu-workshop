@@ -1,4 +1,4 @@
-Welcome to the BU Workshop. 
+# This is the PatternFly react version
 
 **INSTRUCTIONS**
 

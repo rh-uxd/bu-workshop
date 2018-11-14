@@ -29,7 +29,7 @@ By now you should be familiar with how Red Hat’s UXD team uses Github to desig
 
 3. In Github, go to your Profile > Repositories > bu-workshop. Click the green button in the top right corner that says **“Clone or Download”** and use the clipboard icon to copy that link. 
 
-4. Open the Terminal from your local machine (on Macs search for Terminal. Command + space + type in “terminal”). Navigate to a folder that you would like to clone the bu-workshop repository into. Use `“cd <folder name>”` to open a folder, `“cd ..”` to go back and `“ls”` to see what is inside of the current folder. Here is a list of commands for the terminal - https://www.git-tower.com/blog/command-line-cheat-sheet/ 
+4. Open the Terminal from your local machine (on Macs search for Terminal. Command + space + type in “terminal”). Navigate to a folder that you would like to clone the bu-workshop repository into. Use `cd <folder name>` to open a folder, `cd ..` to go back and `ls` to see what is inside of the current folder. Here is a list of commands for the terminal - https://www.git-tower.com/blog/command-line-cheat-sheet/ 
 Once you have found the folder, type `git clone <the copied link>`. Now you have the repository copied to your local machine! 
 **Note:** If you get an error about installing x-code when you try to git clone:
 	a. Run in the terminal: `xcode-select --install`
@@ -58,17 +58,23 @@ Once you have found the folder, type `git clone <the copied link>`. Now you have
 12. Go back to your terminal. To exit out of what is running: (for Macs: Control + C).
 
 13. In order to use PatternFly React in the application you will need to install its dependency. Type this into the command line of your terminal: 
+
 	`npm install @patternfly/react-core --save`
 
 14. Go back to your code editor. Now that you have the dependency installed, add the base css file to the root of the application this would be in your src/index.js file: type:
 	`import '@patternfly/react-core/dist/styles/base.css';`
 
 15. The goal is to swap out the HTML/CSS code for PF-React components. The current react components for PatternFly 4 are here: http://patternfly-react.surge.sh/patternfly-4
+
 	Example: In your src/App.js file, import the Card and CardBody components
 		`import { Card, CardBody } from ‘@patternfly/react-core’;`
+		
 	Find and replace:
+	
 		`<div className="card">I am a card</div>`
+		
 	with
+	
 		`<Card><CardBody>I am a card</CardBody></Card>`
 	
 16. Can you replace the .cardParent and .cardRow containers with the Gallery and GalleryItem layout components?
@@ -111,10 +117,15 @@ Once you have found the folder, type `git clone <the copied link>`. Now you have
 
 7. The goal is to swap out the HTML/CSS code for PF-React components. The current react components for PatternFly 4 are here: http://patternfly-react.surge.sh/patternfly-4
 	a. Example: In your **src/App.js** file, import the Card and CardBody components
+	
 		`import { Card, CardBody } from "@patternfly/react-core";`
+		
 	b. Find and replace:
+	
 		`<div className="card">I am a card</div>`
+		
 	with
+	
 		`<Card><CardBody>I am a card</CardBody></Card>`
 
 8. Can you replace the *.cardParent* and *.cardRow* containers with the Gallery and GalleryItem layout components?

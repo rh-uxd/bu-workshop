@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import redhatlogo from './images/redhatlogo.png';
 import {
   Avatar,
   BackgroundImage,
@@ -16,20 +17,19 @@ import {
   PageSection,
   PageSidebar
 } from '@patternfly/react-core';
-import brandImg from './images/l_pf-reverse-164x11.png';
-import logo from './images/Logo_RH_RGB_Default.png';
-import bg_1200 from './images/pfbg_1200.jpg';
-import bg_992 from './images/pfbg_992.jpg';
-import bg_992_2x from './images/pfbg_992@2x.jpg';
-import bg_768 from './images/pfbg_768.jpg';
-import bg_768_2x from './images/pfbg_768@2x.jpg';
-import bg_2000 from './images/pfbg_2000.jpg';
-import bg_576 from './images/pfbg_576.jpg';
-import bg_576_2x from './images/pfbg_576@2x.jpg';
-import bg_filter from './images/background-filter.svg';
+import patternflylogo from './images/patternflylogo.png';
+import bg_1200 from './images/background/pfbg_1200.jpg';
+import bg_992 from './images/background/pfbg_992.jpg';
+import bg_992_2x from './images/background/pfbg_992@2x.jpg';
+import bg_768 from './images/background/pfbg_768.jpg';
+import bg_768_2x from './images/background/pfbg_768@2x.jpg';
+import bg_2000 from './images/background/pfbg_2000.jpg';
+import bg_576 from './images/background/pfbg_576.jpg';
+import bg_576_2x from './images/background/pfbg_576@2x.jpg';
+import bg_filter from './images/background/background-filter.svg';
+
 
 class App extends Component {
-
   constructor(props) {
     super(props);
 
@@ -54,9 +54,9 @@ class App extends Component {
     };
     const Header = (
       <PageHeader
-        logo={<Brand src={brandImg} alt="Brand Logo" />}
+        logo={<Brand src={patternflylogo} alt="Brand Logo" />}
         logoProps={logoProps}
-        avatar={<Avatar src={logo} alt="Avatar image" />}
+        avatar={<Avatar src={redhatlogo} alt="Avatar image" />}
       />
     );
 

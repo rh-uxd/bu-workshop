@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import redhatlogo from './redhatlogo.png';
+import redhatlogo from './images/redhatlogo.png';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +8,7 @@ class App extends Component {
       <div>
         <header>
           <h1>BU-Workshop</h1>
-          <img src={redhatlogo} className="redHatLogo"/>
+          <img src={redhatlogo} alt="Red Hat logo" className="redHatLogo"/>
         </header>
         <div className="mainSection">
           <div className="nav">
